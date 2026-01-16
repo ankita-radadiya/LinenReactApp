@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ProductList from '../components/ProductList/ProductList'
+import ToDo from '../components/ToDo/ToDo'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <ProductList />
+        <ToDo />
       </div>
     </>
   )
